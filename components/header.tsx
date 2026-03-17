@@ -51,7 +51,6 @@ export default function Header() {
       </div>
     </nav>
 
-    {/* Mobile Menu */}
     {isMenuOpen && (
       <div className="fixed top-20 left-0 right-0 z-40 bg-[#020617]/95 backdrop-blur-md border-t border-white/10 md:hidden">
         <div className="px-6 py-6 space-y-6">
