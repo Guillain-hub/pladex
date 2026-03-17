@@ -7,6 +7,7 @@ import { Menu, X, Terminal, ShieldCheck } from 'lucide-react'
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   return (
+    <>
     <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 md:px-8 py-4 bg-gradient-to-b from-[#020617]/90 to-transparent backdrop-blur-[4px]">
       <div className="flex flex-col items-start">
         <Link href="/" className="flex items-center gap-0 hover:opacity-90 transition">
@@ -71,5 +72,6 @@ export default function Header() {
         </div>
       </div>
     )}
+    </>
   )
 }
