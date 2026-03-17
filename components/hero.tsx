@@ -279,7 +279,7 @@ export default function PladexHero() {
             </div>
 
             {/* RIGHT SIDE: Dynamic Stats Card */}
-            <div className="lg:col-span-5 hidden lg:block mt-12">
+            <div className="lg:col-span-5 mt-8 lg:mt-12">
                 <AnimatePresence mode="wait">
                     <motion.div
                         key={activeTab}
