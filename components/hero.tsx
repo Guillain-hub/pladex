@@ -287,7 +287,7 @@ export default function PladexHero() {
                         animate={{ opacity: 1, x: 0 }}
                         exit={{ opacity: 0, x: -20 }}
                         transition={{ duration: 0.35 }}
-                        className="relative bg-gradient-to-b from-[#071021]/60 to-[#071021]/40 border border-white/6 backdrop-blur-xl p-2 md:p-6 lg:p-8 rounded-2xl shadow-xl overflow-hidden max-w-full"
+                        className="relative bg-gradient-to-b from-[#071021]/60 to-[#071021]/40 border border-white/6 backdrop-blur-xl p-2 md:p-6 lg:p-8 rounded-2xl shadow-xl overflow-hidden max-w-sm md:max-w-md"
                     >
                         {/* animated accent stripe */}
                         <motion.div
