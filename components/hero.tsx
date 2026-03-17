@@ -192,7 +192,7 @@ export default function PladexHero() {
 
       {/* --- CONTENT LAYER (z-10) --- */}
       <div className="relative z-10 flex-1 flex items-center justify-center w-full max-w-7xl mx-auto px-6 lg:px-8">
-        <div className="grid lg:grid-cols-12 gap-16 items-center w-full pt-8 md:pt-16">
+        <div className="grid lg:grid-cols-12 gap-8 md:gap-16 items-center w-full pt-8 md:pt-16">
             
             {/* LEFT SIDE: Typography */}
             <div className="lg:col-span-7 space-y-10">
@@ -266,7 +266,7 @@ export default function PladexHero() {
                     </Link>
 
                     {/* 24/7 Customer Satisfaction Badge */}
-                    <div className="flex items-center gap-2">
+                    <div className="hidden sm:flex items-center gap-2">
                       <div className="flex-shrink-0 w-8 h-8 rounded-full bg-white/10 border border-white/20 flex items-center justify-center">
                         <span className="text-[12px] font-bold text-white">24/7</span>
                       </div>
@@ -287,7 +287,7 @@ export default function PladexHero() {
                         animate={{ opacity: 1, x: 0 }}
                         exit={{ opacity: 0, x: -20 }}
                         transition={{ duration: 0.35 }}
-                        className="relative bg-gradient-to-b from-[#071021]/60 to-[#071021]/40 border border-white/6 backdrop-blur-xl p-4 md:p-6 lg:p-8 rounded-2xl shadow-xl overflow-hidden max-w-full md:max-w-md"
+                        className="relative bg-gradient-to-b from-[#071021]/60 to-[#071021]/40 border border-white/6 backdrop-blur-xl p-3 md:p-6 lg:p-8 rounded-2xl shadow-xl overflow-hidden max-w-full md:max-w-md"
                     >
                         {/* animated accent stripe */}
                         <motion.div
@@ -323,7 +323,7 @@ export default function PladexHero() {
                               </div>
                             </div>
 
-                            <p className="text-sm md:text-base text-slate-300 mt-3 max-w-md">{activeContent.desc}</p>
+                            <p className="text-xs md:text-sm lg:text-base text-slate-300 mt-3 max-w-md">{activeContent.desc}</p>
 
                             <div className="mt-4">
                               <div className="h-2 w-full bg-white/8 rounded-full overflow-hidden">
@@ -338,7 +338,7 @@ export default function PladexHero() {
 
                             {/* System Feed (terminal-style CLI block) */}
                             <div className="mt-5">
-                              <div className="bg-[#00110a]/90 border border-green-900/40 rounded-lg p-3 text-sm md:text-base font-mono text-[#33ff66] shadow-[0_10px_30px_rgba(3,255,100,0.06)]">
+                              <div className="bg-[#00110a]/90 border border-green-900/40 rounded-lg p-3 text-xs md:text-sm lg:text-base font-mono text-[#33ff66] shadow-[0_10px_30px_rgba(3,255,100,0.06)]">
                                 <div className="flex items-center justify-between mb-2 border-b border-green-900/30 pb-2">
                                   <span className="uppercase text-[11px] text-green-300/80">system@pladex:~/workflow$</span>
                                   <span className="text-[10px] uppercase tracking-widest text-green-300/60 font-bold">Executing</span>
