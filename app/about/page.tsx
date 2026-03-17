@@ -10,36 +10,36 @@ export default function About() {
   // --- The 4-Person Team Data ---
   const team = [
     {
-      name: "Alex Mercer",
-      role: "Lead Systems Architect",
+      name: "ISHIMWE Pacific",
+      role: "CO-FOUNDER & CREATIVE DIRECTOR",
       code: "OP_01",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1000&auto=format&fit=crop", // Placeholder tech portrait
-      specialty: "Cloud Infrastructure",
-      bio: "Designs resilient, multi-region systems with observable pipelines."
+      image: "/IMG_5025.JPG.jpeg", // Placeholder tech portrait
+      specialty: "Creative Design & Branding",
+      bio: "Crafts compelling visual identity and content to strengthen branding and elevate marketing impact."
     },
     {
-      name: "Sarah Chen",
-      role: "Head of Front-End",
+      name: "BYIRINGIRO Olivier",
+      role: "CO-FOUNDER & HEAD OF OPERATIONS & GROWTH",
       code: "OP_02",
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1000&auto=format&fit=crop", 
-      specialty: "React Ecosystems",
-      bio: "Crafts accessible, high-performance frontends and design systems."
+      image: "/IMG_3591.JPG.jpeg", // Placeholder tech portrait
+      specialty: "Business Strategy & Growth",
+      bio: "Drives operations and growth through client acquisition, strategic partnerships, and market-focused execution."
     },
     {
-      name: "David Kim",
-      role: "Senior Mobile Engineer",
+      name: "INEZA Placide Guillain",
+      role: "CO-FOUNDER & CTO",
       code: "OP_03",
-      image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=1000&auto=format&fit=crop", 
-      specialty: "Cross-Platform Native",
-      bio: "Builds performant native apps with offline-first considerations."
+      image: "/ChatGPT Image Mar 17, 2026, 02_39_45 PM.png", // Placeholder tech portrait
+      specialty: "Full-Stack Digital Engineering",
+      bio: "Builds secure, scalable web and mobile platforms with modern technologies and high-performance architecture."
     },
     {
-      name: "Elena Rostova",
-      role: "Security & Database Lead",
+      name: "RUBERWA Patrick",
+      role: "CO-FOUNDER & HEAD OF PROJECT OPERATIONS",
       code: "OP_04",
-      image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1000&auto=format&fit=crop", 
-      specialty: "Zero-Trust Systems",
-      bio: "Implements zero-trust data planes and disaster-ready databases."
+      image: "/WhatsApp Image 2026-03-09 at 9.53.12 PM.jpeg", 
+      specialty: "Project Management Systems",
+      bio: "Ensures smooth project delivery through efficient planning, coordination, and quality control."
     }
   ]
 
