@@ -287,7 +287,7 @@ export default function PladexHero() {
                         animate={{ opacity: 1, x: 0 }}
                         exit={{ opacity: 0, x: -20 }}
                         transition={{ duration: 0.35 }}
-                        className="relative bg-gradient-to-b from-[#071021]/60 to-[#071021]/40 border border-white/6 backdrop-blur-xl p-2 md:p-6 lg:p-8 rounded-2xl shadow-xl overflow-hidden max-w-sm md:max-w-md mx-auto"
+                        className="relative bg-gradient-to-b from-[#071021]/60 to-[#071021]/40 border border-white/6 backdrop-blur-xl p-2 md:p-6 lg:p-8 rounded-2xl shadow-xl overflow-hidden max-w-md"
                     >
                         {/* animated accent stripe */}
                         <motion.div
@@ -338,7 +338,7 @@ export default function PladexHero() {
 
                             {/* System Feed (terminal-style CLI block) */}
                             <div className="mt-5">
-                              <div className="bg-[#00110a]/90 border border-green-900/40 rounded-lg p-2 text-center text-xs md:text-sm lg:text-base font-mono text-[#33ff66] shadow-[0_10px_30px_rgba(3,255,100,0.06)]">
+                              <div className="bg-[#00110a]/90 border border-green-900/40 rounded-lg p-2 text-xs md:text-sm lg:text-base font-mono text-[#33ff66] shadow-[0_10px_30px_rgba(3,255,100,0.06)]">
                                 <div className="flex items-center justify-between mb-2 border-b border-green-900/30 pb-2">
                                   <span className="uppercase text-[11px] text-green-300/80">system@pladex:~/workflow$</span>
                                   <span className="text-[10px] uppercase tracking-widest text-green-300/60 font-bold">Executing</span>
