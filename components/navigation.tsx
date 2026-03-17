@@ -67,28 +67,28 @@ export default function Navigation() {
             <div className="flex flex-col gap-4 pt-4">
               <Link
                 href="/services"
-                className="text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors font-medium"
+                className="text-slate-200 hover:text-white transition-colors font-medium"
                 onClick={() => setIsOpen(false)}
               >
                 Services
               </Link>
               <Link
                 href="/about"
-                className="text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors font-medium"
+                className="text-slate-200 hover:text-white transition-colors font-medium"
                 onClick={() => setIsOpen(false)}
               >
                 About
               </Link>
               <Link
                 href="/projects"
-                className="text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors font-medium"
+                className="text-slate-200 hover:text-white transition-colors font-medium"
                 onClick={() => setIsOpen(false)}
               >
                 Projects
               </Link>
               <Link
                 href="/contact"
-                className="text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors font-medium"
+                className="text-slate-200 hover:text-white transition-colors font-medium"
                 onClick={() => setIsOpen(false)}
               >
                 Contact
