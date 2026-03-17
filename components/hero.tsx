@@ -85,11 +85,11 @@ export default function PladexHero() {
       gradient: "from-cyan-400 via-blue-500 to-blue-600",
       // NEW: Web Development Process
       workflow: [
-        "> 01: STRATEGY & DISCOVERY...",
-        "> 02: UX/UI ARCHITECTURE...",
-        "> 03: FRONT-END ENGINEERING...",
-        "> 04: SEO & SPEED OPTIMIZATION...",
-        "> 05: GLOBAL LAUNCH PROTOCOL..."
+        "> 01: STRATEGY...",
+        "> 02: UX/UI DESIGN...",
+        "> 03: DEVELOPMENT...",
+        "> 04: OPTIMIZATION...",
+        "> 05: LAUNCH..."
       ]
     },
     app: { 
@@ -266,11 +266,11 @@ export default function PladexHero() {
                     </Link>
 
                     {/* 24/7 Customer Satisfaction Badge */}
-                    <div className="hidden sm:flex items-center gap-2">
+                    <div className="flex items-center gap-2">
                       <div className="flex-shrink-0 w-8 h-8 rounded-full bg-white/10 border border-white/20 flex items-center justify-center">
                         <span className="text-[12px] font-bold text-white">24/7</span>
                       </div>
-                      <div className="text-[12px] text-slate-300 leading-tight">
+                      <div className="text-[10px] md:text-[12px] text-slate-300 leading-tight">
                         <div className="font-semibold text-white">Customer Support</div>
                         <div className="text-white/60">Always Available</div>
                       </div>
